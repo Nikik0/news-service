@@ -10,5 +10,5 @@ data class NewsEntity(
     val id: Long,
     val info: String,
     val fileHexId: String,
-    val createdAt: LocalDateTime
+    var createdAt: LocalDateTime
 )
