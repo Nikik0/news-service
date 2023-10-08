@@ -11,7 +11,7 @@ spring:
       max-request-size: 20MB
       location: ${java.io.tmpdir}/upload/data
   r2dbc:
-    url: r2dbc:pool:postgres://localhost:5441/news-db
+    url: r2dbc:pool:postgres://localhost:5443/news-db
     username: dev
     password: dev123
 #  flyway:
